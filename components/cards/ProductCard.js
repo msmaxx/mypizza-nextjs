@@ -1,3 +1,5 @@
+import React from 'react';
+
 import {Square} from "react-feather";
 
 function ProductCard({name, category, image,ingredients, priceFrom, Variant, priceVariant}) {

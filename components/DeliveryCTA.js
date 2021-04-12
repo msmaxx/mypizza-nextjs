@@ -1,6 +1,5 @@
 import React from 'react';
 
-
 const DeliveryCTA = () => {
     return (
         <section className="text-gray-600 body-font">

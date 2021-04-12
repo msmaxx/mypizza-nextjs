@@ -1,3 +1,5 @@
+import React from 'react';
+
 import {Circle} from "react-feather";
 
 function PizzaCard({name, image,ingredients, priceFrom, price20cm, price28cm, price40cm}) {

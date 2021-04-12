@@ -3,6 +3,8 @@ import React from 'react';
 import {Facebook} from 'react-feather';
 import {Instagram} from 'react-feather';
 
+import Link from "next/link";
+
 const Footer = () => {
     return (
         <footer className="text-gray-600 body-font">
@@ -17,10 +19,10 @@ const Footer = () => {
                 </p>
                 <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
       <a className="text-gray-500">
-        <Facebook/>
+          <Link href="https://www.facebook.com/mypizza.ee"><Facebook/></Link>
       </a>
       <a className="ml-3 text-gray-500">
-        <Instagram/>
+          <Link href="https://www.instagram.com/mypizza_ee/"><Instagram/></Link>
       </a>
     </span>
             </div>
